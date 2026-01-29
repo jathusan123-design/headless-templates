@@ -12,7 +12,8 @@ const Footer = () => (
         <div className="flex flex-col sm:flex-row text-sm font-helvetica">
           <div className="basis-1/3 border-b border-white pb-4">
             <p className="mt-10">
-              Have questions about our apartment management system? We're here to help with demos, support, and inquiries.
+              Have questions about our apartment management system? We&apos;re
+              here to help with demos, support, and inquiries.
             </p>
           </div>
           <div className="basis-1/3"></div>
@@ -44,9 +45,7 @@ const Footer = () => (
         alt="Aptera Logo"
         className="mx-auto h-16 w-auto object-contain"
       />
-      <p className="font-default mb-10">
-        © 2026 APTERA. All rights reserved.
-      </p>
+      <p className="font-default mb-10">© 2026 APTERA. All rights reserved.</p>
     </div>
   </footer>
 );

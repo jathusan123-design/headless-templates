@@ -21,7 +21,9 @@ const Header = () => (
             />
             <div>
               <span className="block font-site">Aptera</span>
-              <span className="text-xs">Complete Apartment & Employee Management Solution</span>
+              <span className="text-xs">
+                Complete Apartment & Employee Management Solution
+              </span>
             </div>
           </a>
         </h2>

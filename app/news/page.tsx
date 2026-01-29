@@ -26,7 +26,9 @@ export default async function News() {
           System Updates & Announcements
         </h1>
         <p className="pt-6 max-w-3xl text-sm text-center mx-auto">
-          Stay informed about the latest features, system updates, maintenance schedules, and important announcements for our apartment management platform.
+          Stay informed about the latest features, system updates, maintenance
+          schedules, and important announcements for our apartment management
+          platform.
         </p>
         <div
           className="grid grid-cols-1 sm:grid-cols-3 gap-7 grid-flow-row mt-10"

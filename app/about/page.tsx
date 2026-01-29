@@ -15,13 +15,22 @@ export default async function About() {
       <div className="max-w-7xl mx-auto mt-[-120px] relative bg-white px-8 sm:px-20">
         <h1 className="text-center py-8 font-site">About Our System</h1>
         <p className="pt-6 max-w-3xl text-sm text-center mx-auto">
-          Our Apartment Management System is a comprehensive software solution designed to streamline property management operations. We provide integrated tools for managing apartments, employees, maintenance, invoicing, payments, and sales—all in one powerful platform.
+          Our Apartment Management System is a comprehensive software solution
+          designed to streamline property management operations. We provide
+          integrated tools for managing apartments, employees, maintenance,
+          invoicing, payments, and sales—all in one powerful platform.
         </p>
         <p className="pt-6 max-w-3xl text-sm text-center mx-auto">
-          Built with efficiency and user experience in mind, our system helps property managers, landlords, and real estate professionals automate their daily operations, reduce paperwork, improve communication, and increase profitability.
+          Built with efficiency and user experience in mind, our system helps
+          property managers, landlords, and real estate professionals automate
+          their daily operations, reduce paperwork, improve communication, and
+          increase profitability.
         </p>
         <p className="pt-6 max-w-3xl text-sm text-center mx-auto">
-          We believe that property management should be simple, transparent, and efficient. Our mission is to empower property management teams with the technology they need to succeed in today's competitive real estate market.
+          We believe that property management should be simple, transparent, and
+          efficient. Our mission is to empower property management teams with
+          the technology they need to succeed in today&apos;s competitive real
+          estate market.
         </p>
         <div className="justify-center flex flex-col sm:flex-row gap-6 mt-10 text-center">
           <a href="/contact" className="btn-main text-lg">
