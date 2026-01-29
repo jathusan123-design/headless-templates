@@ -2,7 +2,7 @@ import { getWixClient } from '@app/hooks/useWixClientServer';
 import { WixMediaImage } from '@app/components/Image/WixMediaImage';
 import testIds from '@app/utils/test-ids';
 
-export default async function New({ params }: any) {
+export default async function NewsDetail({ params }: any) {
   const wixClient = await getWixClient();
   const { items } = await wixClient.items
     .query('News')

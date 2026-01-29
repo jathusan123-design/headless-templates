@@ -2,6 +2,7 @@ import { getWixClient } from '@app/hooks/useWixClientServer';
 import { formatDate } from '@app/utils/date-formatter';
 import { WixMediaImage } from '@app/components/Image/WixMediaImage';
 import testIds from '@app/utils/test-ids';
+
 export default async function News() {
   const wixClient = await getWixClient();
   const { items } = await wixClient.items.query('News').find();
@@ -22,11 +23,10 @@ export default async function News() {
           className="text-center py-8 text-blue-site font-site"
           data-testid={testIds.NEWS_PAGE.HEADER}
         >
-          News & Updates
+          System Updates & Announcements
         </h1>
         <p className="pt-6 max-w-3xl text-sm text-center mx-auto">
-          Read the latest news and stay up to date about our organization, our
-          projects, our events, and the impact we’re making.
+          Stay informed about the latest features, system updates, maintenance schedules, and important announcements for our apartment management platform.
         </p>
         <div
           className="grid grid-cols-1 sm:grid-cols-3 gap-7 grid-flow-row mt-10"

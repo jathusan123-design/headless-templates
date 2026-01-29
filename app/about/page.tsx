@@ -1,47 +1,38 @@
 import { WixMediaImage } from '@app/components/Image/WixMediaImage';
+
 export default async function About() {
   return (
     <div className="relative">
       <div className="w-full h-[400px] relative">
         <WixMediaImage
           media="https://static.wixstatic.com/media/0b340f_c407b331d71449afa40b30f6efb200aa~mv2_d_5580_4160_s_4_2.jpg/v1/fill/w_1920,h_492,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/0b340f_c407b331d71449afa40b30f6efb200aa~mv2_d_5580_4160_s_4_2.jpg"
-          alt="projects"
+          alt="about"
           sizes="100vw"
           objectFit="cover"
           disableZoom={true}
         />
       </div>
       <div className="max-w-7xl mx-auto mt-[-120px] relative bg-white px-8 sm:px-20">
-        <h1 className="text-center py-8 font-site">About ChoosEquality</h1>
+        <h1 className="text-center py-8 font-site">About Our System</h1>
         <p className="pt-6 max-w-3xl text-sm text-center mx-auto">
-          ChoosEquality is a non-profit organization that aims to bring
-          education to everyone, regardless of age, background, or location. We
-          believe that education is a human right and a powerful force for
-          positive change in the world. We provide training, tools, resources,
-          and support to help schools achieve their educational goals and
-          aspirations. We also advocate for policies and reforms that promote
-          quality education for all.
+          Our Apartment Management System is a comprehensive software solution designed to streamline property management operations. We provide integrated tools for managing apartments, employees, maintenance, invoicing, payments, and sales—all in one powerful platform.
         </p>
         <p className="pt-6 max-w-3xl text-sm text-center mx-auto">
-          We envision a world where everyone has the opportunity to learn, grow,
-          and thrive. Our mission is to empower people and communities with the
-          knowledge and skills they need to create a better future for
-          themselves and others.
+          Built with efficiency and user experience in mind, our system helps property managers, landlords, and real estate professionals automate their daily operations, reduce paperwork, improve communication, and increase profitability.
         </p>
         <p className="pt-6 max-w-3xl text-sm text-center mx-auto">
-          We are ChoosEquality and we invite you to join us in making a
-          difference.
+          We believe that property management should be simple, transparent, and efficient. Our mission is to empower property management teams with the technology they need to succeed in today's competitive real estate market.
         </p>
         <div className="justify-center flex flex-col sm:flex-row gap-6 mt-10 text-center">
-          <a href="" className="btn-main text-lg">
-            2035 Financial Statement
+          <a href="/contact" className="btn-main text-lg">
+            Request a Demo
           </a>
-          <a href="" className="btn-main text-lg">
-            Certification Registry
+          <a href="/features" className="btn-main text-lg">
+            View Features
           </a>
         </div>
         <h2 className="text-center text-4xl my-10 sm:my-20 font-site">
-          Our Goals
+          Key Features
         </h2>
         <div className="flex flex-col sm:flex-row gap-12 justify-between">
           <div className="text-center flex flex-col items-center gap-4">
@@ -74,8 +65,8 @@ export default async function About() {
               </g>
             </svg>
             <span className="font-site">
-              Spread empathy
-              <br /> through education
+              Comprehensive Property
+              <br /> Management Suite
             </span>
           </div>
           <div className="text-center flex flex-col items-center gap-4">
@@ -143,7 +134,7 @@ export default async function About() {
               </g>
             </svg>
             <span className="font-site">
-              Increase donations equally <br /> across 24 countries
+              Automated Financial <br /> Operations & Reporting
             </span>
           </div>
           <div className="text-center flex flex-col items-center gap-4">
@@ -256,7 +247,7 @@ export default async function About() {
               </g>
             </svg>
             <span className="font-site">
-              Help more children and teens <br /> graduate from high school
+              Integrated Employee <br /> & HR Management
             </span>
           </div>
         </div>

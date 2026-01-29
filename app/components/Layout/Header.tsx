@@ -14,10 +14,14 @@ const Header = () => (
             href="/"
             className="flex flex-col sm:flex-row items-center gap-2 sm:gap-6"
           >
-            <Logo />
+            <img
+              src="/images/Aptera.png"
+              alt="Aptera Logo"
+              className="h-12 w-auto object-contain"
+            />
             <div>
-              <span className="block font-site">ChoosEquality</span>
-              <span className="text-xs">Education for All</span>
+              <span className="block font-site">Aptera</span>
+              <span className="text-xs">Complete Apartment & Employee Management Solution</span>
             </div>
           </a>
         </h2>
