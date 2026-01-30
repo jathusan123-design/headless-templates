@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 import testIds from '@app/utils/test-ids';
 
 test.describe('Projects Page', () => {
-  const PATH = '/projects';
+  const PATH = '/features';
 
   test('look and feel - projects', async ({ page }) => {
     await page.goto(PATH);
