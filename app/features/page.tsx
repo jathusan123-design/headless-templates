@@ -73,7 +73,7 @@ export default async function Projects() {
     <div className="relative">
       <div className="w-full h-[400px] relative">
         <WixMediaImage
-          media="/images/backround.png"
+          media="/images/Aptera.jpg"
           alt="features"
           sizes="100vw"
           objectFit="cover"
