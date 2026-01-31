@@ -36,19 +36,19 @@ const categoryData: { [key: string]: any } = {
         src: '/images/ApteraHomePage.png',
       },
       {
-        src: '/images/ApteraMaintenanceDashboard.png',
+        src: '/images/ApteraMaintenanceDashboard.jpg',
       },
       {
-        src: '/images/ApteraApartmentsPage.png',
+        src: '/images/ApteraApartmentsPage.jpg',
       },
       {
-        src: '/images/ApteraInvoicesPage.png',
+        src: '/images/ApteraInvoicesPage.jpg',
       },
       {
-        src: '/images/ApteraFeeSchdulesPage.png',
+        src: '/images/ApteraFeeSchdulesPage.jpg',
       },
       {
-        src: '/images/ApteraExpenses.png',
+        src: '/images/ApteraExpenses.jpg',
       },
       {
         src: '/images/ApteraApartmentReports.png',
